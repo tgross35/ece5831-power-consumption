@@ -1,0 +1,34 @@
+.
+|--- README.md
+|--- crystalball
+|    |--- __init__.py
+|    |--- collect.py
+|    |--- constants.py
+|    |--- load.py
+|    |--- models.py
+|    |--- namesgenerator.py
+|    |--- plot.py
+|    |--- preprocess.py
+|    |___ train.py
+|--- data
+|    |--- data.sqlite
+|    |--- misc
+|    |--- models
+|    |--- run1_models
+|    |--- run1_models_export
+|    |--- run2_models
+|    |--- run2_models_export
+|    |___ sets
+|--- datatree.txt
+|--- fit-parallel.py
+|--- raw
+|    |--- household_power_consumption.txt
+|    |--- power
+|    |--- power_consumption.zip
+|    |--- regions.json
+|    |--- sources.md
+|    |___ weather
+|--- requirements.txt
+|___ runcrystal.py
+
+16 directories, 20 files

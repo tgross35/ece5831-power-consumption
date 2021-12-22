@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Py 1: Crystal Load",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/runcrystal.py",
+        //     "console": "integratedTerminal",
+        //     // "args": ["--collect"]
+        //     // "args": ["--train", "new"]
+        //     // "args": ["--load", "weather"]
+        //     "args": ["--load", "all"]
+        // },
+        // {
+        //     "name": "Py 2: Crystal Process",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/runcrystal.py",
+        //     "console": "integratedTerminal",
+        //     "args": ["--process"]
+        //     // "args": ["--train", "new"]
+        //     // "args": ["--load", "weather"]
+        //     // "args": ["--load", "weather"]
+        // },
+        // {
+        //     "name": "Py 3: Crystal Collect",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/runcrystal.py",
+        //     "console": "integratedTerminal",
+        //     "args": ["--collect"]
+        // },
+        // {
+        //     "name": "Py 4: Crystal Train",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/runcrystal.py",
+        //     "console": "integratedTerminal",
+        //     // "args": ["--train", "batch", "--build-only"]
+        //     "args": ["--train", "cool_shaw", "--fit-only"]
+        // }
+        // {
+        //     "name": "Py 5: Crystal Plot",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/runcrystal.py",
+        //     "console": "integratedTerminal",
+        //     // "args": ["--train", "batch", "--build-only"]
+        //     "args": ["--plot-results", "--runname", "run1"]
+        // }
+        // {
+        //     "name": "Py 6: Crystal Predict",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/runcrystal.py",
+        //     "console": "integratedTerminal",
+        //     "args": ["--train", "batch", "--predict-only", "--runname", "run1"]
+        // }
+        {
+            "name": "Py 6: Crystal Predict",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/runcrystal.py",
+            "console": "integratedTerminal",
+            "args": ["--train", "batch", "--analyze", "--runname", "run2"]
+        }
+    ]
+}

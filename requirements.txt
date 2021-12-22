@@ -1,0 +1,13 @@
+tensorboard
+tensorflow
+sqlalchemy
+black
+isort
+click
+numpy
+pytz
+matplotlib
+pydot
+termcolor
+scipy
+shap
